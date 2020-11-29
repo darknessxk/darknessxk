@@ -1,3 +1,27 @@
+## Welcome
+
+### What am I doing
+
+- I'm currently working full-time at **i9 Experience**.
+- Learning more about and studying: **Game Hacking, Offensive Security, C/C++, Reverse Engineering**.
+
+### Skill set
+
+* C/C++
+* Reverse Engineering
+* PHP
+* OS Development
+* Driver Development
+
+
+### Studying
+
+Constantly updating myself with content focused in Reverse Engineering and C/C++
+
+I know my old skill set was focused in web development but now I changed my mind just to follow my dream as a malware researcher
+
+Any comments are welcome and you can contact me through [LinkedIn](https://www.linkedin.com/in/darknessxk)
+
 <p align="center">
   <a href="https://github.com/anuraghazra/github-readme-stats">
     <img
@@ -13,15 +37,3 @@
     />
   </a>
 </p>
-
-## Hi there! <img src="https://raw.githubusercontent.com/iampavangandhi/iampavangandhi/master/gifs/Hi.gif" width="30px"></h2>
-
-### What am I doing
-
-- 👨‍💻 I'm currently working full-time at **i9 Experience**.
-- 🌱 Learning more about and studying: **Game Hacking, Offensive Security, C/C++, Reverse Engineering**.
-
-### Find me around the web 🌎:
-
-- 💼 Connecting and sharing professional updates on <a href="https://www.linkedin.com/in/darknessxk/">LinkedIn</a>.
-- 🐦 Following me on <a href="https://twitter.com/darknessxk/">Twitter</a>.
