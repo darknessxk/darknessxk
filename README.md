@@ -2,7 +2,7 @@
 
 ### What am I doing
 
-- I'm currently working full-time at **Homeguru** with **React** and **React Native**.
+- I'm currently searching for a new job.
 - Learning more about and studying: **Game Hacking, Offensive Security, C/C++, Reverse Engineering**.
 
 ### Skill set
