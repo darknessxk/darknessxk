@@ -7,9 +7,15 @@
 
 ### Skill set
 
-* C/C++
-* Reverse Engineering
+* C/C++ (strongest)
+* Reverse Engineering (favorite)
 * PHP
+* C# (first one)
+* React
+* Node.js
+* Typescript
+* Dart
+* Flutter
 * OS Development
 * Driver Development
 
