@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06080f" />
+      <stop offset="50%" stop-color="#0b101d" />
+      <stop offset="100%" stop-color="#080711" />
+    </linearGradient>
+
+    <linearGradient id="cyanMagenta" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f0ff" />
+      <stop offset="55%" stop-color="#7000ff" />
+      <stop offset="100%" stop-color="#ff0055" />
+    </linearGradient>
+
+    <linearGradient id="cyanFade" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f0ff" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#00f0ff" stop-opacity="0.0" />
+    </linearGradient>
+
+    <pattern id="cyberGrid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#00f0ff" stroke-width="0.6" stroke-opacity="0.07" />
+    </pattern>
+
+    <pattern id="scanlines" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="1" fill="#00f0ff" fill-opacity="0.025" />
+    </pattern>
+  </defs>
+
+  <!-- Base Background -->
+  <rect width="1200" height="320" rx="10" fill="url(#bgGrad)" />
+  <rect width="1200" height="320" rx="10" fill="url(#cyberGrid)" />
+  <rect width="1200" height="320" rx="10" fill="url(#scanlines)" />
+
+  <!-- Ambient Glows -->
+  <circle cx="1020" cy="90" r="220" fill="#7000ff" fill-opacity="0.09" />
+  <circle cx="180" cy="240" r="200" fill="#00f0ff" fill-opacity="0.07" />
+
+  <!-- Outer HUD Frame -->
+  <rect x="14" y="14" width="1172" height="292" rx="6" fill="none" stroke="#1e293b" stroke-width="1.5" />
+  <rect x="14" y="14" width="1172" height="3" fill="url(#cyanMagenta)" />
+
+  <!-- Corner Brackets -->
+  <path d="M 14 44 L 14 14 L 44 14" fill="none" stroke="#00f0ff" stroke-width="2.5" />
+  <path d="M 1156 14 L 1186 14 L 1186 44" fill="none" stroke="#ff0055" stroke-width="2.5" />
+  <path d="M 14 276 L 14 306 L 44 306" fill="none" stroke="#00f0ff" stroke-width="2.5" />
+  <path d="M 1156 306 L 1186 306 L 1186 276" fill="none" stroke="#ff0055" stroke-width="2.5" />
+
+  <!-- Top Telemetry Bar -->
+  <rect x="36" y="34" width="1128" height="28" rx="3" fill="#0d1526" fill-opacity="0.85" stroke="#1e293b" stroke-width="1" />
+  <circle cx="52" cy="48" r="4" fill="#00f0ff">
+    <animate attributeName="opacity" values="1;0.3;1" dur="2.2s" repeatCount="indefinite" />
+  </circle>
+  <text x="66" y="52" fill="#00f0ff" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="11" font-weight="700" letter-spacing="1.5">
+    NEUROGRID MASTER CONSOLE // SYSTEM READY
+  </text>
+  <text x="430" y="52" fill="#64748b" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="11" letter-spacing="1.2">
+    LOC // SÃO PAULO · 23°33'04"S 46°38'02"W · UTC-3
+  </text>
+  <text x="1148" y="52" text-anchor="end" fill="#ff0055" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="11" font-weight="700" letter-spacing="1.5">
+    AUTH: 0x9F41 [ROOT-00]
+  </text>
+
+  <!-- Operator Tag -->
+  <rect x="36" y="84" width="235" height="24" rx="2" fill="url(#cyanFade)" />
+  <rect x="36" y="84" width="3" height="24" fill="#00f0ff" />
+  <text x="48" y="100" fill="#00f0ff" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="12" font-weight="700" letter-spacing="2">
+    // OPERATOR: DARKNESSXK
+  </text>
+
+  <!-- Main Name Title -->
+  <text x="36" y="150" fill="#f8fafc" font-family="'Segoe UI', system-ui, -apple-system, sans-serif" font-size="36" font-weight="800" letter-spacing="1.8">
+    LUIZ FELIPE SANTOS DE OLIVEIRA
+  </text>
+
+  <!-- Role Subtitle -->
+  <text x="36" y="182" fill="#94a3b8" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="13" font-weight="600" letter-spacing="1.4">
+    SOFTWARE ARCHITECT <tspan fill="#00f0ff">//</tspan> LOW-LEVEL &amp; KERNEL SPECIALIST <tspan fill="#ff0055">//</tspan> REVERSE ENGINEER
+  </text>
+
+  <!-- Divider Line -->
+  <line x1="36" y1="204" x2="880" y2="204" stroke="#1e293b" stroke-width="1" />
+  <rect x="36" y="203" width="120" height="2" fill="#00f0ff" />
+
+  <!-- Core Spec Summary -->
+  <text x="36" y="230" fill="#cbd5e1" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="12.5" letter-spacing="0.5">
+    15+ years engineering across bare-metal OS kernels, UEFI &amp; Windows drivers, x86/x64 binary deobfuscation,
+  </text>
+  <text x="36" y="250" fill="#cbd5e1" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="12.5" letter-spacing="0.5">
+    custom RISC virtual machines, V8 internals, and high-concurrency distributed architectures.
+  </text>
+
+  <!-- Right-side Telemetry HUD Module -->
+  <g transform="translate(910, 84)">
+    <rect width="254" height="172" rx="4" fill="#090e1a" fill-opacity="0.9" stroke="#1e293b" stroke-width="1" />
+    <rect width="254" height="24" rx="4" fill="#111a2e" />
+    <text x="12" y="16" fill="#00f0ff" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="10" font-weight="700" letter-spacing="1.5">
+      SYS // TELEMETRY DOSSIER
+    </text>
+    <text x="242" y="16" text-anchor="end" fill="#10b981" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="10" font-weight="700">
+      ● ONLINE
+    </text>
+
+    <text x="14" y="46" fill="#64748b" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="10.5">PRIMARY RING</text>
+    <text x="240" y="46" text-anchor="end" fill="#e2e8f0" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="10.5" font-weight="700">RING-0 / RING-3 / VMX</text>
+
+    <text x="14" y="68" fill="#64748b" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="10.5">CORE STACK</text>
+    <text x="240" y="68" text-anchor="end" fill="#00f0ff" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="10.5" font-weight="700">C++20 · ASM · GO · TS</text>
+
+    <text x="14" y="90" fill="#64748b" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="10.5">RE &amp; BINARY</text>
+    <text x="240" y="90" text-anchor="end" fill="#e2e8f0" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="10.5" font-weight="700">IDA · GHIDRA · LLVM/VTIL</text>
+
+    <text x="14" y="112" fill="#64748b" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="10.5">RUNTIME LAB</text>
+    <text x="240" y="112" text-anchor="end" fill="#ff0055" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="10.5" font-weight="700">KEI VM (RISC / WASM)</text>
+
+    <text x="14" y="134" fill="#64748b" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="10.5">EXPERIENCE</text>
+    <text x="240" y="134" text-anchor="end" fill="#e2e8f0" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="10.5" font-weight="700">15+ YEARS VERIFIED</text>
+
+    <line x1="14" y1="146" x2="240" y2="146" stroke="#1e293b" stroke-width="1" />
+    <text x="14" y="162" fill="#94a3b8" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="10" letter-spacing="1">
+      UPLINK: DARKNESSXK.COM
+    </text>
+  </g>
+
+  <!-- Bottom Sector Bar -->
+  <rect x="36" y="270" width="1128" height="22" rx="2" fill="#0d1526" fill-opacity="0.7" />
+  <text x="46" y="285" fill="#64748b" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="10.5" letter-spacing="1.2">
+    SECTORS // <tspan fill="#00f0ff">[01] WORK</tspan> · <tspan fill="#00f0ff">[02] KPK LAB</tspan> · <tspan fill="#00f0ff">[03] OSS</tspan> · <tspan fill="#00f0ff">[04] MDX ARCHIVE</tspan> · <tspan fill="#00f0ff">[05] DOSSIER</tspan> · <tspan fill="#ff0055">[06] COMM RELAY</tspan>
+  </text>
+  <text x="1152" y="285" text-anchor="end" fill="#64748b" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="10.5" letter-spacing="1">
+    PORT: 0x88F0 // AES-GCM
+  </text>
+</svg>
